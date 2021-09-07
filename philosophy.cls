@@ -48,9 +48,9 @@ ClassMethod Import(dir As %String = "/usr/local/day2.txt") As %Status
 /// Description
 ClassMethod Test() As %Status
 {
-    WRITE $MATCH("1","([0-9]+\^?)+"),!
-    set min =$MATCH("1","([0-9]+\^?)+")
-    write "Min is ",min ,!
+    WRITE $MATCH("4567683285759","([0-9])+"),!
+    //set min =$MATCH("1^23^456^789","([0-9]+\^?)+")
+    //write "Min is ",min ,!
 }
 
 Storage Default
